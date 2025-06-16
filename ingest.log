@@ -1,0 +1,297 @@
+2025-06-17 01:07:53,184 - INFO - Processing 2603 ads for embeddings, skipping 2431 existing
+2025-06-17 01:07:54,933 - INFO - Processing ad_id: 120228974261580596 (2432/2603)
+2025-06-17 01:07:56,528 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-17 01:07:58,141 - INFO - Processing ad_id: 120226247311690476 (2433/2603)
+2025-06-17 01:07:59,518 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-17 01:07:59,596 - INFO - Processing ad_id: 120226147547340476 (2434/2603)
+2025-06-17 01:08:00,735 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-17 01:08:00,845 - INFO - Processing ad_id: 120207712881840382 (2435/2603)
+2025-06-17 01:08:00,848 - ERROR - Error processing ad_id 120207712881840382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,848 - INFO - Processing ad_id: 120207713530520382 (2436/2603)
+2025-06-17 01:08:00,848 - ERROR - Error processing ad_id 120207713530520382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,849 - INFO - Processing ad_id: 120207713385260382 (2437/2603)
+2025-06-17 01:08:00,849 - ERROR - Error processing ad_id 120207713385260382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,849 - INFO - Processing ad_id: 120207713188720382 (2438/2603)
+2025-06-17 01:08:00,849 - ERROR - Error processing ad_id 120207713188720382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,850 - INFO - Processing ad_id: 120207712990290382 (2439/2603)
+2025-06-17 01:08:00,850 - ERROR - Error processing ad_id 120207712990290382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,850 - INFO - Processing ad_id: 120208053837390382 (2440/2603)
+2025-06-17 01:08:00,850 - ERROR - Error processing ad_id 120208053837390382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,850 - INFO - Processing ad_id: 120208054116700382 (2441/2603)
+2025-06-17 01:08:00,851 - ERROR - Error processing ad_id 120208054116700382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,851 - INFO - Processing ad_id: 120208055916580382 (2442/2603)
+2025-06-17 01:08:00,851 - ERROR - Error processing ad_id 120208055916580382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,851 - INFO - Processing ad_id: 120208055687380382 (2443/2603)
+2025-06-17 01:08:00,851 - ERROR - Error processing ad_id 120208055687380382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,852 - INFO - Processing ad_id: 120208055613190382 (2444/2603)
+2025-06-17 01:08:00,852 - ERROR - Error processing ad_id 120208055613190382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,852 - INFO - Processing ad_id: 120208067156250382 (2445/2603)
+2025-06-17 01:08:00,852 - ERROR - Error processing ad_id 120208067156250382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,852 - INFO - Processing ad_id: 120208067341900382 (2446/2603)
+2025-06-17 01:08:00,853 - ERROR - Error processing ad_id 120208067341900382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,853 - INFO - Processing ad_id: 120208123689970382 (2447/2603)
+2025-06-17 01:08:00,853 - ERROR - Error processing ad_id 120208123689970382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,854 - INFO - Processing ad_id: 120208124401220382 (2448/2603)
+2025-06-17 01:08:00,854 - ERROR - Error processing ad_id 120208124401220382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,854 - INFO - Processing ad_id: 120208124559910382 (2449/2603)
+2025-06-17 01:08:00,854 - ERROR - Error processing ad_id 120208124559910382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,855 - INFO - Processing ad_id: 120208124638240382 (2450/2603)
+2025-06-17 01:08:00,855 - ERROR - Error processing ad_id 120208124638240382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,855 - INFO - Processing ad_id: 120208174161370382 (2451/2603)
+2025-06-17 01:08:00,855 - ERROR - Error processing ad_id 120208174161370382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,855 - INFO - Processing ad_id: 120208174125780382 (2452/2603)
+2025-06-17 01:08:00,856 - ERROR - Error processing ad_id 120208174125780382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,856 - INFO - Processing ad_id: 120208067244220382 (2453/2603)
+2025-06-17 01:08:00,856 - ERROR - Error processing ad_id 120208067244220382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,856 - INFO - Processing ad_id: 120208506139030382 (2454/2603)
+2025-06-17 01:08:00,856 - ERROR - Error processing ad_id 120208506139030382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,857 - INFO - Processing ad_id: 120208520102470382 (2455/2603)
+2025-06-17 01:08:00,857 - ERROR - Error processing ad_id 120208520102470382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,857 - INFO - Processing ad_id: 120208520715940382 (2456/2603)
+2025-06-17 01:08:00,857 - ERROR - Error processing ad_id 120208520715940382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,858 - INFO - Processing ad_id: 120208521003620382 (2457/2603)
+2025-06-17 01:08:00,858 - ERROR - Error processing ad_id 120208521003620382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,859 - INFO - Processing ad_id: 120208470728340382 (2458/2603)
+2025-06-17 01:08:00,859 - ERROR - Error processing ad_id 120208470728340382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,859 - INFO - Processing ad_id: 120208520948070382 (2459/2603)
+2025-06-17 01:08:00,859 - ERROR - Error processing ad_id 120208520948070382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,859 - INFO - Processing ad_id: 120208521042560382 (2460/2603)
+2025-06-17 01:08:00,859 - ERROR - Error processing ad_id 120208521042560382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,860 - INFO - Processing ad_id: 120208520834620382 (2461/2603)
+2025-06-17 01:08:00,861 - ERROR - Error processing ad_id 120208520834620382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,861 - INFO - Processing ad_id: 120208520558670382 (2462/2603)
+2025-06-17 01:08:00,861 - ERROR - Error processing ad_id 120208520558670382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,862 - INFO - Processing ad_id: 120208857777880382 (2463/2603)
+2025-06-17 01:08:00,862 - ERROR - Error processing ad_id 120208857777880382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,863 - INFO - Processing ad_id: 120208858191880382 (2464/2603)
+2025-06-17 01:08:00,863 - ERROR - Error processing ad_id 120208858191880382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,864 - INFO - Processing ad_id: 120208858357950382 (2465/2603)
+2025-06-17 01:08:00,864 - ERROR - Error processing ad_id 120208858357950382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,864 - INFO - Processing ad_id: 120208982000140382 (2466/2603)
+2025-06-17 01:08:00,864 - ERROR - Error processing ad_id 120208982000140382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,866 - INFO - Processing ad_id: 120209082970910382 (2467/2603)
+2025-06-17 01:08:00,866 - ERROR - Error processing ad_id 120209082970910382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,866 - INFO - Processing ad_id: 120209118598140382 (2468/2603)
+2025-06-17 01:08:00,867 - ERROR - Error processing ad_id 120209118598140382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,867 - INFO - Processing ad_id: 120209118373170382 (2469/2603)
+2025-06-17 01:08:00,868 - ERROR - Error processing ad_id 120209118373170382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,868 - INFO - Processing ad_id: 120209118694830382 (2470/2603)
+2025-06-17 01:08:00,868 - ERROR - Error processing ad_id 120209118694830382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,869 - INFO - Processing ad_id: 120209125272980382 (2471/2603)
+2025-06-17 01:08:00,869 - ERROR - Error processing ad_id 120209125272980382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,870 - INFO - Processing ad_id: 120209197438340382 (2472/2603)
+2025-06-17 01:08:00,870 - ERROR - Error processing ad_id 120209197438340382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,870 - INFO - Processing ad_id: 120209197819620382 (2473/2603)
+2025-06-17 01:08:00,871 - ERROR - Error processing ad_id 120209197819620382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,871 - INFO - Processing ad_id: 120209197769590382 (2474/2603)
+2025-06-17 01:08:00,871 - ERROR - Error processing ad_id 120209197769590382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,872 - INFO - Processing ad_id: 120209197961570382 (2475/2603)
+2025-06-17 01:08:00,872 - ERROR - Error processing ad_id 120209197961570382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,872 - INFO - Processing ad_id: 120209198131060382 (2476/2603)
+2025-06-17 01:08:00,872 - ERROR - Error processing ad_id 120209198131060382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,872 - INFO - Processing ad_id: 120209237339310382 (2477/2603)
+2025-06-17 01:08:00,873 - ERROR - Error processing ad_id 120209237339310382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,873 - INFO - Processing ad_id: 120209237256710382 (2478/2603)
+2025-06-17 01:08:00,873 - ERROR - Error processing ad_id 120209237256710382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,874 - INFO - Processing ad_id: 120209350719700382 (2479/2603)
+2025-06-17 01:08:00,874 - ERROR - Error processing ad_id 120209350719700382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,874 - INFO - Processing ad_id: 120209075370070382 (2480/2603)
+2025-06-17 01:08:00,874 - ERROR - Error processing ad_id 120209075370070382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,876 - INFO - Processing ad_id: 120209396445460382 (2481/2603)
+2025-06-17 01:08:00,877 - ERROR - Error processing ad_id 120209396445460382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,878 - INFO - Processing ad_id: 120209396442150382 (2482/2603)
+2025-06-17 01:08:00,878 - ERROR - Error processing ad_id 120209396442150382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,879 - INFO - Processing ad_id: 120209407039870382 (2483/2603)
+2025-06-17 01:08:00,879 - ERROR - Error processing ad_id 120209407039870382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,879 - INFO - Processing ad_id: 120208832032920382 (2484/2603)
+2025-06-17 01:08:00,879 - ERROR - Error processing ad_id 120208832032920382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,880 - INFO - Processing ad_id: 120209417170410382 (2485/2603)
+2025-06-17 01:08:00,880 - ERROR - Error processing ad_id 120209417170410382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,880 - INFO - Processing ad_id: 120209417213730382 (2486/2603)
+2025-06-17 01:08:00,880 - ERROR - Error processing ad_id 120209417213730382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,880 - INFO - Processing ad_id: 120208913714420382 (2487/2603)
+2025-06-17 01:08:00,881 - ERROR - Error processing ad_id 120208913714420382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,881 - INFO - Processing ad_id: 120208981510460382 (2488/2603)
+2025-06-17 01:08:00,881 - ERROR - Error processing ad_id 120208981510460382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,882 - INFO - Processing ad_id: 120208832032910382 (2489/2603)
+2025-06-17 01:08:00,882 - ERROR - Error processing ad_id 120208832032910382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,882 - INFO - Processing ad_id: 120209546228660382 (2490/2603)
+2025-06-17 01:08:00,882 - ERROR - Error processing ad_id 120209546228660382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,883 - INFO - Processing ad_id: 120209547900680382 (2491/2603)
+2025-06-17 01:08:00,883 - ERROR - Error processing ad_id 120209547900680382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,883 - INFO - Processing ad_id: 120209548170920382 (2492/2603)
+2025-06-17 01:08:00,885 - ERROR - Error processing ad_id 120209548170920382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,885 - INFO - Processing ad_id: 120209542470460382 (2493/2603)
+2025-06-17 01:08:00,885 - ERROR - Error processing ad_id 120209542470460382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,885 - INFO - Processing ad_id: 120209545823600382 (2494/2603)
+2025-06-17 01:08:00,886 - ERROR - Error processing ad_id 120209545823600382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,886 - INFO - Processing ad_id: 120209578447120382 (2495/2603)
+2025-06-17 01:08:00,886 - ERROR - Error processing ad_id 120209578447120382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,886 - INFO - Processing ad_id: 120209350892770382 (2496/2603)
+2025-06-17 01:08:00,887 - ERROR - Error processing ad_id 120209350892770382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,887 - INFO - Processing ad_id: 120209350698050382 (2497/2603)
+2025-06-17 01:08:00,887 - ERROR - Error processing ad_id 120209350698050382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,887 - INFO - Processing ad_id: 120209396419010382 (2498/2603)
+2025-06-17 01:08:00,888 - ERROR - Error processing ad_id 120209396419010382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,888 - INFO - Processing ad_id: 120209396435010382 (2499/2603)
+2025-06-17 01:08:00,888 - ERROR - Error processing ad_id 120209396435010382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,889 - INFO - Processing ad_id: 120209609901560382 (2500/2603)
+2025-06-17 01:08:00,889 - ERROR - Error processing ad_id 120209609901560382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,889 - INFO - Processing ad_id: 120209542812620382 (2501/2603)
+2025-06-17 01:08:00,889 - ERROR - Error processing ad_id 120209542812620382: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:00,889 - INFO - Processing ad_id: 120226693075130224 (2502/2603)
+2025-06-17 01:08:01,491 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-17 01:08:01,576 - INFO - Processing ad_id: 6808919884330 (2503/2603)
+2025-06-17 01:08:02,552 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-17 01:08:02,647 - INFO - Processing ad_id: 6808756870530 (2504/2603)
+2025-06-17 01:08:03,423 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-17 01:08:03,500 - INFO - Processing ad_id: 6808757333330 (2505/2603)
+2025-06-17 01:08:04,345 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-17 01:08:04,448 - INFO - Processing ad_id: 680360401268809 (2506/2603)
+2025-06-17 01:08:04,449 - ERROR - Error processing ad_id 680360401268809: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:04,449 - INFO - Processing ad_id: 1280676204072014 (2507/2603)
+2025-06-17 01:08:04,450 - ERROR - Error processing ad_id 1280676204072014: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:04,450 - INFO - Processing ad_id: 1280676204072014 (2508/2603)
+2025-06-17 01:08:04,451 - ERROR - Error processing ad_id 1280676204072014: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:04,451 - INFO - Processing ad_id: 1073860458100647 (2509/2603)
+2025-06-17 01:08:04,452 - ERROR - Error processing ad_id 1073860458100647: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:04,452 - INFO - Processing ad_id: 679658461339003 (2510/2603)
+2025-06-17 01:08:04,453 - ERROR - Error processing ad_id 679658461339003: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:04,454 - INFO - Processing ad_id: 122130171782745870 (2511/2603)
+2025-06-17 01:08:04,454 - ERROR - Error processing ad_id 122130171782745870: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:04,455 - INFO - Processing ad_id: 122130171782745870 (2512/2603)
+2025-06-17 01:08:04,456 - ERROR - Error processing ad_id 122130171782745870: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:04,458 - INFO - Processing ad_id: 5122501 (2513/2603)
+2025-06-17 01:08:04,459 - ERROR - Error processing ad_id 5122501: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:04,459 - INFO - Processing ad_id: 5122501 (2514/2603)
+2025-06-17 01:08:04,460 - ERROR - Error processing ad_id 5122501: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:04,460 - INFO - Processing ad_id: 122112782420745870 (2515/2603)
+2025-06-17 01:08:04,902 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-17 01:08:04,990 - INFO - Processing ad_id: 122112780752745870 (2516/2603)
+2025-06-17 01:08:04,990 - ERROR - Error processing ad_id 122112780752745870: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:04,991 - INFO - Processing ad_id: 122118250370745870 (2517/2603)
+2025-06-17 01:08:04,992 - ERROR - Error processing ad_id 122118250370745870: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:04,992 - INFO - Processing ad_id: 122119732628745870 (2518/2603)
+2025-06-17 01:08:04,993 - ERROR - Error processing ad_id 122119732628745870: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:04,994 - INFO - Processing ad_id: 122124070904745870 (2519/2603)
+2025-06-17 01:08:04,994 - ERROR - Error processing ad_id 122124070904745870: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:04,995 - INFO - Processing ad_id: 1253026076837027 (2520/2603)
+2025-06-17 01:08:04,995 - ERROR - Error processing ad_id 1253026076837027: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:04,996 - INFO - Processing ad_id: 664217959549720 (2521/2603)
+2025-06-17 01:08:04,996 - ERROR - Error processing ad_id 664217959549720: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:04,997 - INFO - Processing ad_id: 1253026076837027 (2522/2603)
+2025-06-17 01:08:04,997 - ERROR - Error processing ad_id 1253026076837027: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:04,999 - INFO - Processing ad_id: 170401 (2523/2603)
+2025-06-17 01:08:04,999 - ERROR - Error processing ad_id 170401: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:05,000 - INFO - Processing ad_id: 122167959740299841 (2524/2603)
+2025-06-17 01:08:05,000 - ERROR - Error processing ad_id 122167959740299841: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:05,001 - INFO - Processing ad_id: 122182088354121671 (2525/2603)
+2025-06-17 01:08:05,002 - ERROR - Error processing ad_id 122182088354121671: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:05,003 - INFO - Processing ad_id: 122124070904745870 (2526/2603)
+2025-06-17 01:08:05,004 - ERROR - Error processing ad_id 122124070904745870: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:05,005 - INFO - Processing ad_id: 656657246972458 (2527/2603)
+2025-06-17 01:08:05,005 - ERROR - Error processing ad_id 656657246972458: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:05,006 - INFO - Processing ad_id: 10397840148603181 (2528/2603)
+2025-06-17 01:08:05,006 - ERROR - Error processing ad_id 10397840148603181: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:05,007 - INFO - Processing ad_id: 122119732628745870 (2529/2603)
+2025-06-17 01:08:05,007 - ERROR - Error processing ad_id 122119732628745870: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:05,008 - INFO - Processing ad_id: 90402 (2530/2603)
+2025-06-17 01:08:05,680 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-17 01:08:05,770 - INFO - Processing ad_id: 645651518073031 (2531/2603)
+2025-06-17 01:08:06,224 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-17 01:08:06,305 - INFO - Processing ad_id: 9610483960347981 (2532/2603)
+2025-06-17 01:08:06,723 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-17 01:08:06,816 - INFO - Processing ad_id: 9610483960347981 (2533/2603)
+2025-06-17 01:08:07,235 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-17 01:08:07,325 - INFO - Processing ad_id: 122118250370745870 (2534/2603)
+2025-06-17 01:08:07,326 - ERROR - Error processing ad_id 122118250370745870: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:07,327 - INFO - Processing ad_id: 967177288865260 (2535/2603)
+2025-06-17 01:08:07,327 - ERROR - Error processing ad_id 967177288865260: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:07,328 - INFO - Processing ad_id: 180303 (2536/2603)
+2025-06-17 01:08:07,328 - ERROR - Error processing ad_id 180303: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:07,329 - INFO - Processing ad_id: 1036801105139916 (2537/2603)
+2025-06-17 01:08:07,329 - ERROR - Error processing ad_id 1036801105139916: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:07,329 - INFO - Processing ad_id: 122112782420745870 (2538/2603)
+2025-06-17 01:08:07,896 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-17 01:08:08,002 - INFO - Processing ad_id: 122112780752745870 (2539/2603)
+2025-06-17 01:08:08,003 - ERROR - Error processing ad_id 122112780752745870: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,003 - INFO - Processing ad_id: 1052918746869670 (2540/2603)
+2025-06-17 01:08:08,004 - ERROR - Error processing ad_id 1052918746869670: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,004 - INFO - Processing ad_id: 1053073086854236 (2541/2603)
+2025-06-17 01:08:08,005 - ERROR - Error processing ad_id 1053073086854236: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,005 - INFO - Processing ad_id: 41401 (2542/2603)
+2025-06-17 01:08:08,006 - ERROR - Error processing ad_id 41401: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,006 - INFO - Processing ad_id: 40301 (2543/2603)
+2025-06-17 01:08:08,006 - ERROR - Error processing ad_id 40301: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,007 - INFO - Processing ad_id: 1030400582445555 (2544/2603)
+2025-06-17 01:08:08,008 - ERROR - Error processing ad_id 1030400582445555: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,008 - INFO - Processing ad_id: 1026689589483321 (2545/2603)
+2025-06-17 01:08:08,010 - ERROR - Error processing ad_id 1026689589483321: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,010 - INFO - Processing ad_id: 2312959695755901 (2546/2603)
+2025-06-17 01:08:08,010 - ERROR - Error processing ad_id 2312959695755901: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,011 - INFO - Processing ad_id: 1021737289978551 (2547/2603)
+2025-06-17 01:08:08,011 - ERROR - Error processing ad_id 1021737289978551: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,012 - INFO - Processing ad_id: 1027959976022949 (2548/2603)
+2025-06-17 01:08:08,012 - ERROR - Error processing ad_id 1027959976022949: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,013 - INFO - Processing ad_id: 1027959916022955 (2549/2603)
+2025-06-17 01:08:08,013 - ERROR - Error processing ad_id 1027959916022955: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,014 - INFO - Processing ad_id: 1021229070029373 (2550/2603)
+2025-06-17 01:08:08,014 - ERROR - Error processing ad_id 1021229070029373: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,014 - INFO - Processing ad_id: 180139640574975801 (2551/2603)
+2025-06-17 01:08:08,015 - ERROR - Error processing ad_id 180139640574975801: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,015 - INFO - Processing ad_id: 8579212196934931 (2552/2603)
+2025-06-17 01:08:08,016 - ERROR - Error processing ad_id 8579212196934931: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,016 - INFO - Processing ad_id: 1111939560723173 (2553/2603)
+2025-06-17 01:08:08,017 - ERROR - Error processing ad_id 1111939560723173: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,017 - INFO - Processing ad_id: 1111943467389449 (2554/2603)
+2025-06-17 01:08:08,018 - ERROR - Error processing ad_id 1111943467389449: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,018 - INFO - Processing ad_id: 1011103911041889 (2555/2603)
+2025-06-17 01:08:08,019 - ERROR - Error processing ad_id 1011103911041889: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,019 - INFO - Processing ad_id: 18015334415427448 (2556/2603)
+2025-06-17 01:08:08,020 - ERROR - Error processing ad_id 18015334415427448: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,020 - INFO - Processing ad_id: 1002158941936386 (2557/2603)
+2025-06-17 01:08:08,021 - ERROR - Error processing ad_id 1002158941936386: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,022 - INFO - Processing ad_id: 41401 (2558/2603)
+2025-06-17 01:08:08,022 - ERROR - Error processing ad_id 41401: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,023 - INFO - Processing ad_id: 123101 (2559/2603)
+2025-06-17 01:08:08,023 - ERROR - Error processing ad_id 123101: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,023 - INFO - Processing ad_id: 996258169193130 (2560/2603)
+2025-06-17 01:08:08,024 - ERROR - Error processing ad_id 996258169193130: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,024 - INFO - Processing ad_id: 123108 (2561/2603)
+2025-06-17 01:08:08,024 - ERROR - Error processing ad_id 123108: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,024 - INFO - Processing ad_id: 996888279130119 (2562/2603)
+2025-06-17 01:08:08,025 - ERROR - Error processing ad_id 996888279130119: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,025 - INFO - Processing ad_id: 996893209129626 (2563/2603)
+2025-06-17 01:08:08,025 - ERROR - Error processing ad_id 996893209129626: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,025 - INFO - Processing ad_id: 985916926893921 (2564/2603)
+2025-06-17 01:08:08,026 - ERROR - Error processing ad_id 985916926893921: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,026 - INFO - Processing ad_id: 511415888163262 (2565/2603)
+2025-06-17 01:08:08,026 - ERROR - Error processing ad_id 511415888163262: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,026 - INFO - Processing ad_id: 991202979706727 (2566/2603)
+2025-06-17 01:08:08,027 - ERROR - Error processing ad_id 991202979706727: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,027 - INFO - Processing ad_id: 991207696372922 (2567/2603)
+2025-06-17 01:08:08,027 - ERROR - Error processing ad_id 991207696372922: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,028 - INFO - Processing ad_id: 980079894152369 (2568/2603)
+2025-06-17 01:08:08,028 - ERROR - Error processing ad_id 980079894152369: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,028 - INFO - Processing ad_id: 388838803521415 (2569/2603)
+2025-06-17 01:08:08,028 - ERROR - Error processing ad_id 388838803521415: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,029 - INFO - Processing ad_id: 82305 (2570/2603)
+2025-06-17 01:08:08,029 - ERROR - Error processing ad_id 82305: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,029 - INFO - Processing ad_id: 82308 (2571/2603)
+2025-06-17 01:08:08,030 - ERROR - Error processing ad_id 82308: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,030 - INFO - Processing ad_id: 82302 (2572/2603)
+2025-06-17 01:08:08,030 - ERROR - Error processing ad_id 82302: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,030 - INFO - Processing ad_id: 82304 (2573/2603)
+2025-06-17 01:08:08,031 - ERROR - Error processing ad_id 82304: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,031 - INFO - Processing ad_id: 550585884013372 (2574/2603)
+2025-06-17 01:08:08,031 - ERROR - Error processing ad_id 550585884013372: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,031 - INFO - Processing ad_id: 52801 (2575/2603)
+2025-06-17 01:08:08,032 - ERROR - Error processing ad_id 52801: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,032 - INFO - Processing ad_id: 52303 (2576/2603)
+2025-06-17 01:08:08,032 - ERROR - Error processing ad_id 52303: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,032 - INFO - Processing ad_id: 1127152968610371 (2577/2603)
+2025-06-17 01:08:08,033 - ERROR - Error processing ad_id 1127152968610371: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,033 - INFO - Processing ad_id: 1157682135557454 (2578/2603)
+2025-06-17 01:08:08,033 - ERROR - Error processing ad_id 1157682135557454: 'NoneType' object has no attribute 'capitalize'
+2025-06-17 01:08:08,034 - INFO - Checkpoint saved: 2578 ads, last ad_id: 804763758342573
+2025-06-17 01:08:08,034 - INFO - Embedding generation complete, processed 2578 ads
