@@ -1,4 +1,3 @@
-
 import os
 import json
 import re
@@ -8,10 +7,14 @@ from openai import OpenAI
 from dotenv import load_dotenv
 
 # Setup logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', handlers=[
-    logging.FileHandler('ingest.log'),
-    logging.StreamHandler()
-])
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('ingest.log'),
+        logging.StreamHandler()
+    ]
+)
 logger = logging.getLogger(__name__)
 
 # Load environment variables
@@ -114,65 +117,27 @@ def get_score(result):
     scoring = {"Pass": 1, "Optimize": 0, "Fail": -1, "Incomplete": 0}
     return scoring.get(result.capitalize(), 0)
 
-def generate_embeddings():
-    """Generate embeddings for ad_records_7."""
-    try:
-        # Load checkpoint
-        checkpoint = load_checkpoint()
-        start_count = checkpoint["processed_count"]
-        last_ad_id = checkpoint["last_ad_id"]
-
-        # Get existing ad_ids to skip
-        existing_ad_ids = set(
-            doc["metadata"]["ad_id"] for doc in embedded_content_collection.find({}, {"metadata.ad_id": 1})
-        )
-        total_ads = ad_collection.count_documents({})
-        logger.info(f"Processing {total_ads} ads for embeddings, skipping {len(existing_ad_ids)} existing")
-
-        # Process ads in batches
-        skip = 0
-        processed = len(existing_ad_ids)
-        cursor = ad_collection.find({})
-        if start_count > 0:
-            cursor = cursor.skip(start_count)
-        batch = []
-        for ad in cursor:
-            ad_id = str(ad.get("ad_id", "Unknown"))
-            if ad_id in existing_ad_ids:
-                continue
-            batch.append(ad)
-            if len(batch) >= BATCH_SIZE:
-                process_batch(batch, processed, total_ads, existing_ad_ids)
-                processed += len(batch)
-                batch = []
-                if processed % 100 == 0:
-                    save_checkpoint(processed, ad_id)
-            if processed >= total_ads:
-                break
-        if batch:
-            process_batch(batch, processed, total_ads, existing_ad_ids)
-            processed += len(batch)
-            save_checkpoint(processed, ad_id)
-        logger.info(f"Embedding generation complete, processed {processed} ads")
-    except Exception as e:
-        logger.error(f"Embedding update error: {e}")
-    finally:
-        client.close()
-
-def process_batch(batch, processed, total_ads, existing_ad_ids):
-    """Process a batch of ads."""
+def process_batch(batch, processed, total_ads):
+    """Process a batch of ads, skipping those with non-null store_deleted_at."""
+    skipped_count = 0
     for ad in batch:
         ad_id = str(ad.get("ad_id", "Unknown"))
-        if ad_id in existing_ad_ids:
-            continue
         logger.info(f"Processing ad_id: {ad_id} ({processed + 1}/{total_ads})")
+        if "store_deleted_at" in ad and ad["store_deleted_at"] is not None:
+            logger.debug(f"Skipping ad_id {ad_id} due to store_deleted_at: {ad.get('store_deleted_at')}")
+            skipped_count += 1
+            continue
         try:
             adinfo = parse_adinfo(ad.get("adinfo", "{}"))
             spend = safe_float(ad.get("spend", 0))
             ad_type = ad.get("ad_type", "Unknown")
-            result = ad.get("result", "UNKNOWN").capitalize()
-            result_30 = ad.get("result_30", "UNKNOWN").capitalize()
-            result_90 = ad.get("result_90", "UNKNOWN").capitalize()
+            # Handle None values for result fields
+            result = str(ad.get("result", "UNKNOWN")) if ad.get("result") is not None else "UNKNOWN"
+            result_30 = str(ad.get("result_30", "UNKNOWN")) if ad.get("result_30") is not None else "UNKNOWN"
+            result_90 = str(ad.get("result_90", "UNKNOWN")) if ad.get("result_90") is not None else "UNKNOWN"
+            result = result.capitalize()
+            result_30 = result_30.capitalize()
+            result_90 = result_90.capitalize()
             # Set ad_type to Evergreen if spend >= 1000
             if spend >= 1000:
                 ad_type = "Evergreen"
@@ -243,6 +208,45 @@ def process_batch(batch, processed, total_ads, existing_ad_ids):
         except Exception as e:
             logger.error(f"Error processing ad_id {ad_id}: {e}")
         processed += 1
+    logger.info(f"Processed {len(batch) - skipped_count} ads in batch, skipped {skipped_count} ads with non-null store_deleted_at")
+
+def generate_embeddings():
+    """Generate embeddings for ad_records_7 after clearing embedded_content."""
+    try:
+        # Clear embedded_content collection
+        embedded_content_collection.delete_many({})
+        logger.info("Cleared embedded_content collection")
+
+        # Reset checkpoint
+        save_checkpoint(0, None)
+        logger.info("Checkpoint reset")
+
+        total_ads = ad_collection.count_documents({})
+        logger.info(f"Processing {total_ads} ads for embeddings")
+
+        processed = 0
+        batch = []
+        cursor = ad_collection.find({})
+        for ad in cursor:
+            ad_id = str(ad.get("ad_id", "Unknown"))
+            batch.append(ad)
+            if len(batch) >= BATCH_SIZE:
+                process_batch(batch, processed, total_ads)
+                processed += len(batch)
+                batch = []
+                if processed % 100 == 0:
+                    save_checkpoint(processed, ad_id)
+            if processed >= total_ads:
+                break
+        if batch:
+            process_batch(batch, processed, total_ads)
+            processed += len(batch)
+            save_checkpoint(processed, ad_id)
+        logger.info(f"Embedding generation complete, processed {processed} ads")
+    except Exception as e:
+        logger.error(f"Embedding update error: {e}")
+    finally:
+        client.close()
 
 if __name__ == "__main__":
     generate_embeddings()
