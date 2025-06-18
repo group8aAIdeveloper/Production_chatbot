@@ -235,7 +235,7 @@ def analyze_trends(ads: List[Dict]) -> Dict:
             cpc_trends.append(cpc_trend)
             ctr_trends.append(ctr_trend)
             roas_trends.append(roas_trend)
-        return {"cpc": cpc_trends, "ctr": cpc_trends, "roas": roas_trends}
+        return {"cpc": cpc_trends, "ctr": ctr_trends, "roas": roas_trends}
     except Exception as e:
         logger.error(f"Error analyzing trends: {e}")
         return {}
